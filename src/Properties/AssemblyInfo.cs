@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("DebuggableWindowsService")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -35,8 +35,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
-#if DEBUG
+ 
 [assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.debug.config", Watch = true)]
-#else
-[assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.prod.config", Watch = true)]
-#endif
+ 

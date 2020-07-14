@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DebuggableWindowsService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="serviceName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">_testService</Value>
+    </Setting>
+    <Setting Name="serviceDescription" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">_Test Service</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
